@@ -88,7 +88,3 @@ for epoch in range(EPOCH):
     plt.show()
 
     print(f"{epoch+1}/{EPOCH} Train Loss: {running_loss/len(Data):.4f}, val Loss: {val_loss/len(Data_val):.4f}")
-
-#epoch : 23
-#epoch : 29
-#epoch : 27
